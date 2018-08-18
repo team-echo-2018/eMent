@@ -7,6 +7,7 @@ import { NavItemComponent } from './views/platform/components/nav-item/nav-item.
 import { HomePageComponent } from './views/platform/pages/home-page/home-page.component';
 import { LoginPageComponent } from './views/platform/pages/login-page/login-page.component';
 import { SignupPageComponent } from './views/platform/pages/signup-page/signup-page.component';
+import { LogoSpanComponent } from './views/platform/components/logo-span/logo-span.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SignupPageComponent } from './views/platform/pages/signup-page/signup-p
     NavItemComponent,
     HomePageComponent,
     LoginPageComponent,
-    SignupPageComponent
+    SignupPageComponent,
+    LogoSpanComponent
   ],
   imports: [
     BrowserModule
