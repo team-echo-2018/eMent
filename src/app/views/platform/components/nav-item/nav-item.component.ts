@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-nav-item',
@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavItemComponent implements OnInit {
 
+  // instance variables declarations
+  private _itemName: string;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  // getters and setters start
+  public get itemName(): string {
+    return this._itemName;
+  }
+  public set itemName(value: string) {
+    this._itemName = value;
+  }
+  // getters and setters end
 
 }
