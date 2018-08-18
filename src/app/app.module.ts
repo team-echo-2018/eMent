@@ -8,6 +8,7 @@ import { HomePageComponent } from './views/platform/pages/home-page/home-page.co
 import { LoginPageComponent } from './views/platform/pages/login-page/login-page.component';
 import { SignupPageComponent } from './views/platform/pages/signup-page/signup-page.component';
 import { LogoSpanComponent } from './views/platform/components/logo-span/logo-span.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LogoSpanComponent } from './views/platform/components/logo-span/logo-sp
     LogoSpanComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
