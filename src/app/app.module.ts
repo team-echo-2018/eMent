@@ -9,6 +9,7 @@ import { LoginPageComponent } from './views/platform/pages/login-page/login-page
 import { SignupPageComponent } from './views/platform/pages/signup-page/signup-page.component';
 import { LogoSpanComponent } from './views/platform/components/logo-span/logo-span.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { RegSelectorPageComponent } from './views/platform/pages/reg-selector-page/reg-selector-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     HomePageComponent,
     LoginPageComponent,
     SignupPageComponent,
-    LogoSpanComponent
+    LogoSpanComponent,
+    RegSelectorPageComponent
   ],
   imports: [
     BrowserModule,
