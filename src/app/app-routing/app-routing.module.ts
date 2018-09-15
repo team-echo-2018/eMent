@@ -7,6 +7,8 @@ import { RegSelectorPageComponent } from '../views/platform/pages/reg-selector-p
 import { ProjectsPageComponent } from '../views/platform/pages/projects-page/projects-page.component';
 import { MessagingPageComponent } from '../views/platform/pages/messaging-page/messaging-page.component';
 import { FeaturesPageComponent } from '../views/platform/pages/features-page/features-page.component';
+import { AboutusPageComponent } from '../views/platform/pages/aboutus-page/aboutus-page.component';
+import { HelpPageComponent } from '../views/platform/pages/help-page/help-page.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'login'},
@@ -16,7 +18,9 @@ const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'projects', component: ProjectsPageComponent },
   { path: 'messaging', component: MessagingPageComponent },
-  { path: 'features', component: FeaturesPageComponent }
+  { path: 'features', component: FeaturesPageComponent },
+  { path: 'about-us', component: AboutusPageComponent },
+  { path: 'help', component: HelpPageComponent }
 ];
 
 @NgModule({

@@ -14,6 +14,8 @@ import { ProjectsPageComponent } from './views/platform/pages/projects-page/proj
 import { HeaderComponent } from './views/platform/components/header/header.component';
 import { MessagingPageComponent } from './views/platform/pages/messaging-page/messaging-page.component';
 import { FeaturesPageComponent } from './views/platform/pages/features-page/features-page.component';
+import { AboutusPageComponent } from './views/platform/pages/aboutus-page/aboutus-page.component';
+import { HelpPageComponent } from './views/platform/pages/help-page/help-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FeaturesPageComponent } from './views/platform/pages/features-page/feat
     ProjectsPageComponent,
     HeaderComponent,
     MessagingPageComponent,
-    FeaturesPageComponent
+    FeaturesPageComponent,
+    AboutusPageComponent,
+    HelpPageComponent
   ],
   imports: [
     BrowserModule,
