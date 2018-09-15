@@ -16,6 +16,7 @@ import { MessagingPageComponent } from './views/platform/pages/messaging-page/me
 import { FeaturesPageComponent } from './views/platform/pages/features-page/features-page.component';
 import { AboutusPageComponent } from './views/platform/pages/aboutus-page/aboutus-page.component';
 import { HelpPageComponent } from './views/platform/pages/help-page/help-page.component';
+import { FooterComponent } from './views/platform/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HelpPageComponent } from './views/platform/pages/help-page/help-page.co
     MessagingPageComponent,
     FeaturesPageComponent,
     AboutusPageComponent,
-    HelpPageComponent
+    HelpPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
