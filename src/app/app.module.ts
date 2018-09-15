@@ -17,6 +17,7 @@ import { FeaturesPageComponent } from './views/platform/pages/features-page/feat
 import { AboutusPageComponent } from './views/platform/pages/aboutus-page/aboutus-page.component';
 import { HelpPageComponent } from './views/platform/pages/help-page/help-page.component';
 import { FooterComponent } from './views/platform/components/footer/footer.component';
+import { ForumPageComponent } from './views/platform/pages/forum-page/forum-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './views/platform/components/footer/footer.compo
     FeaturesPageComponent,
     AboutusPageComponent,
     HelpPageComponent,
-    FooterComponent
+    FooterComponent,
+    ForumPageComponent
   ],
   imports: [
     BrowserModule,

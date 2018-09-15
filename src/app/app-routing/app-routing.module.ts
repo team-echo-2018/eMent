@@ -9,6 +9,7 @@ import { MessagingPageComponent } from '../views/platform/pages/messaging-page/m
 import { FeaturesPageComponent } from '../views/platform/pages/features-page/features-page.component';
 import { AboutusPageComponent } from '../views/platform/pages/aboutus-page/aboutus-page.component';
 import { HelpPageComponent } from '../views/platform/pages/help-page/help-page.component';
+import { ForumPageComponent } from '../views/platform/pages/forum-page/forum-page.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'login'},
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'messaging', component: MessagingPageComponent },
   { path: 'features', component: FeaturesPageComponent },
   { path: 'about-us', component: AboutusPageComponent },
-  { path: 'help', component: HelpPageComponent }
+  { path: 'help', component: HelpPageComponent },
+  { path: 'forum', component: ForumPageComponent }
 ];
 
 @NgModule({
