@@ -1,9 +1,10 @@
 <nav class="navbar navbar-expand-lg bg-secondary py-0">
   <div class="collapse navbar-collapse">
     <ul class="nav col-lg-8 ml-auto">
-      <app-nav-item class="col-lg-3 p-0" _itemName="Home"></app-nav-item>
-      <app-nav-item class="col-lg-3 p-0" _itemName="Projects"></app-nav-item>
-      <app-nav-item class="col-lg-3 p-0" _itemName="Teams"></app-nav-item>
+      <app-nav-item class="col-lg-3 p-0" _itemName="Projects" [routerLink]="['/projects']" routerLinkActive="router-link-active" ></app-nav-item>
+      <app-nav-item class="col-lg-3 p-0" _itemName="Messaging" [routerLink]="['/messaging']" routerLinkActive="router-link-active" ></app-nav-item>
+      <!-- <app-nav-item class="col-lg-3 p-0" _itemName="Forum"></app-nav-item> -->
+      <app-nav-item class="col-lg-3 p-0" _itemName="Features" [routerLink]="['/features']" routerLinkActive="router-link-active" ></app-nav-item>
       <app-nav-item class="col-lg-3 p-0" _itemName="Profile"></app-nav-item>
     </ul>
   </div>

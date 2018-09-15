@@ -10,6 +10,10 @@ import { SignupPageComponent } from './views/platform/pages/signup-page/signup-p
 import { LogoSpanComponent } from './views/platform/components/logo-span/logo-span.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { RegSelectorPageComponent } from './views/platform/pages/reg-selector-page/reg-selector-page.component';
+import { ProjectsPageComponent } from './views/platform/pages/projects-page/projects-page.component';
+import { HeaderComponent } from './views/platform/components/header/header.component';
+import { MessagingPageComponent } from './views/platform/pages/messaging-page/messaging-page.component';
+import { FeaturesPageComponent } from './views/platform/pages/features-page/features-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { RegSelectorPageComponent } from './views/platform/pages/reg-selector-pa
     LoginPageComponent,
     SignupPageComponent,
     LogoSpanComponent,
-    RegSelectorPageComponent
+    RegSelectorPageComponent,
+    ProjectsPageComponent,
+    HeaderComponent,
+    MessagingPageComponent,
+    FeaturesPageComponent
   ],
   imports: [
     BrowserModule,
