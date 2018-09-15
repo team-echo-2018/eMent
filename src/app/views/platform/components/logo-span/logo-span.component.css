@@ -1,3 +1,8 @@
+/* Remove the outline of Logo span */
+a {
+    outline: none;
+}
+
 /* logo image size -> width: 300px, heigth: 100px */
 .logo {
     position: absolute;
