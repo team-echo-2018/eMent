@@ -23,6 +23,8 @@ import { ProfileDescComponent } from './views/platform/components/profile-desc/p
 import { RankingDescComponent } from './views/platform/components/ranking-desc/ranking-desc.component';
 import { NotificationDescComponent } from './views/platform/components/notification-desc/notification-desc.component';
 import { HomeDescComponent } from './views/platform/components/home-desc/home-desc.component';
+import { ProjectItemComponent } from './views/platform/components/project-item/project-item.component';
+import { ProjectItemMinComponent } from './views/platform/components/project-item-min/project-item-min.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { HomeDescComponent } from './views/platform/components/home-desc/home-de
     ProfileDescComponent,
     RankingDescComponent,
     NotificationDescComponent,
-    HomeDescComponent
+    HomeDescComponent,
+    ProjectItemComponent,
+    ProjectItemMinComponent
   ],
   imports: [
     BrowserModule,
