@@ -1,8 +1,28 @@
 <!-- Add the app header section -->
 <app-header></app-header>
-<p>
-    Home Page
-</p>
+
+<!-- Home page content -->
+<div class="container-fluid mt-3">
+    
+    <div class="row">
+        <div class="col-lg-3 brd">
+            <div class="row">
+                <app-profile-desc></app-profile-desc>
+            </div>
+            <div class="row brd">
+                <app-ranking-desc></app-ranking-desc>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <app-home-desc></app-home-desc>
+        </div>
+
+        <div class="col-lg-4">
+            <app-notification-desc></app-notification-desc>
+        </div>
+    </div>
+</div>
 
 <!-- Add the app footer section -->
 <app-footer></app-footer>

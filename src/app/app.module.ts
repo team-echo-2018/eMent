@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './views/platform/components/nav-bar/nav-bar.component';
@@ -18,6 +19,10 @@ import { AboutusPageComponent } from './views/platform/pages/aboutus-page/aboutu
 import { HelpPageComponent } from './views/platform/pages/help-page/help-page.component';
 import { FooterComponent } from './views/platform/components/footer/footer.component';
 import { ForumPageComponent } from './views/platform/pages/forum-page/forum-page.component';
+import { ProfileDescComponent } from './views/platform/components/profile-desc/profile-desc.component';
+import { RankingDescComponent } from './views/platform/components/ranking-desc/ranking-desc.component';
+import { NotificationDescComponent } from './views/platform/components/notification-desc/notification-desc.component';
+import { HomeDescComponent } from './views/platform/components/home-desc/home-desc.component';
 
 @NgModule({
   declarations: [
@@ -36,11 +41,16 @@ import { ForumPageComponent } from './views/platform/pages/forum-page/forum-page
     AboutusPageComponent,
     HelpPageComponent,
     FooterComponent,
-    ForumPageComponent
+    ForumPageComponent,
+    ProfileDescComponent,
+    RankingDescComponent,
+    NotificationDescComponent,
+    HomeDescComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
