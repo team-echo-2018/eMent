@@ -10,6 +10,7 @@ import { FeaturesPageComponent } from '../views/platform/pages/features-page/fea
 import { AboutusPageComponent } from '../views/platform/pages/aboutus-page/aboutus-page.component';
 import { HelpPageComponent } from '../views/platform/pages/help-page/help-page.component';
 import { ForumPageComponent } from '../views/platform/pages/forum-page/forum-page.component';
+import { ProfilePageComponent } from '../views/platform/pages/profile-page/profile-page.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'login'},
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'features', component: FeaturesPageComponent },
   { path: 'about-us', component: AboutusPageComponent },
   { path: 'help', component: HelpPageComponent },
-  { path: 'forum', component: ForumPageComponent }
+  { path: 'forum', component: ForumPageComponent },
+  { path: 'profile', component: ProfilePageComponent }
 ];
 
 @NgModule({

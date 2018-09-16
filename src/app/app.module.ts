@@ -25,6 +25,7 @@ import { NotificationDescComponent } from './views/platform/components/notificat
 import { HomeDescComponent } from './views/platform/components/home-desc/home-desc.component';
 import { ProjectItemComponent } from './views/platform/components/project-item/project-item.component';
 import { ProjectItemMinComponent } from './views/platform/components/project-item-min/project-item-min.component';
+import { ProfilePageComponent } from './views/platform/pages/profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ProjectItemMinComponent } from './views/platform/components/project-ite
     NotificationDescComponent,
     HomeDescComponent,
     ProjectItemComponent,
-    ProjectItemMinComponent
+    ProjectItemMinComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
