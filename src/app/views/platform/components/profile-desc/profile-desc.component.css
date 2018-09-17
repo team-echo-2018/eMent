@@ -1,14 +1,30 @@
 .box {
-    background-color: rgba(206, 206, 206, 0.37);
+    background-color: rgba(95, 140, 199, 0.349);
     border: 1px solid gray;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #8f8f8f;
 }
 
 .user-img {
+    position: relative;
     width: 100px;
     height: 100px;
-    background-color: rgba(190, 127, 102, 0.541);
-    border: 1px solid darkgray;
+    background-color: rgba(64, 87, 190, 0.459);
+    border: 3px solid black;
     border-radius: 50%;
+}
+
+.image {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 2px;
+    top: 6px;
+    border-radius: 50%;
+}
+
+p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 0.8em;
 }
