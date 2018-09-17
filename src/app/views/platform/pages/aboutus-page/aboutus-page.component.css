@@ -1,4 +1,5 @@
 .page {
+    height: 400px;
     background-color: rgba(226, 226, 226, 0.747);
     border: 2px solid rgb(109, 109, 109);
     border-radius: 10px;
